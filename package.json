@@ -1,0 +1,29 @@
+{
+  "name": "mvc-tech-blog",
+  "version": "1.0.0",
+  "description": "A MySQL database and CMS-style blog structured using a Model View Controller (MVC) paradigm. Handlebars.js is the templating language, Sequelize is the ORM, and authentication is achieved through the express-session npm package. Site is deployed at [heroku](x)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mflanigan13/mvc-tech-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mflanigan13/mvc-tech-blog/issues"
+  },
+  "homepage": "https://github.com/mflanigan13/mvc-tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.2"
+  }
+}
